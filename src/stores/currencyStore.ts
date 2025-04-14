@@ -16,7 +16,7 @@ export const useCurrencyStore = defineStore("currency", {
                 return {
                     from,
                     to,
-                    value: Number(value.toFixed(2)),
+                    value,
                 } as CurrencyType;
             }
             );
