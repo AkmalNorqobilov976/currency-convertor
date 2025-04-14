@@ -15,7 +15,7 @@ const amounts = ref({
     fromAmount: 0,
     toAmount: 0,
     toCurrency: "USD",
-    fromCurrency: ""
+    fromCurrency: "RUB"
 });
 
 const fromCurrencyComputed = computed({
