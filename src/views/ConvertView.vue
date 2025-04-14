@@ -14,7 +14,7 @@ const convertableCurrenciesList = computed(() => {
 const amounts = ref({
     fromAmount: 0,
     toAmount: 0,
-    toCurrency: "",
+    toCurrency: "USD",
     fromCurrency: ""
 });
 
